@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: roblox-status
+    env: python
+    buildCommand: ""
+    startCommand: python roblox_status.py
+    plan: free
